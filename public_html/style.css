@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    background-repeat: no-repeat;
+
+    font-size: 14px;
+}
+
+#wrapper {
+    margin: auto;
+    width: 800px;
+}
+
+.quote {
+    font-style: italic;
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#header {
+    background-image: url("img/background.jpg");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#header h1 {
+    font-size: 25px;
+    color: white;
+    width: 362px;
+    text-shadow: 2px 2px 2px #000000;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#header h1 span {
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+    text-align: right;
+    margin-top: -5px;
+}
+
+#footer {
+    background-color: #1e5799;
+    color: white;
+    text-align: center;
+
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+
+    padding: 5px;
+
+}
+
+.imagen {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    width: 100px;
+}
+
+.email {
+    color: darkblue;
+}
+
+.historia {
+    float: left;
+    width: 40%;
+    border-left: solid 1px lightgray;
+    padding-left: 40px;
+}
